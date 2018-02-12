@@ -1,0 +1,124 @@
+body{
+        font-family: Arial, helvetica, sans-serif;
+        font-size: 17px;
+        line-height: 1.6;
+}
+
+.modal{
+        display: none;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        overflow: auto;
+        background-color: rgba(0,0,0,0.3);
+}
+.container{
+        padding: 15px;
+}
+.modal-content{
+        background-color: #f4f4f4;
+        margin: 5% auto;
+        width: 70%;
+        box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2), 0 7px 20px 0 rgba(0,0,0,0.2);
+        animation-name: modalOpen;
+        animation-duration: 0.3s;
+}
+
+.closeBtn{
+        float: right;
+        font-size: 30px;
+        color: grey;
+}
+.closeBtn:hover, .closeBtn:focus{
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+}
+
+form {
+    border: 3px solid #f1f1f1;
+    align-items: center;
+    width: 100%;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+
+/* Set a style for all buttons */
+button {
+    background-color: #23B14D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+ #nextpage {
+    background-color: #23B14D;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+    width: auto%;
+    margin-top: 15px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+.container a:hover{
+        opacity: 0.8;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+/* The "Forgot password" text */
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+.container{
+        width: auto;
+}
+
+@keyframes modalOpen {
+        from{opacity: 0}
+        to {opacity: 1}
+
+}
+
+.modal-header{
+        background:  #23B14D;
+        color: white;
+        margin: 0;
+        padding: 15px;
+}

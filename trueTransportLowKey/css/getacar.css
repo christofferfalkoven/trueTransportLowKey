@@ -1,0 +1,120 @@
+body{
+        font-family: Arial, helvetica, sans-serif;
+        font-size: 17px;
+        line-height: 1.6;
+}
+.container{
+        padding: 15px;
+        align-items: center;
+}
+.getACar-header{
+
+}
+form {
+    border: 3px solid #f1f1f1;
+    align-items: center;
+    width: 100%;
+}
+
+button {
+    background-color: #23B14D;
+    color: white;
+    padding: 14px 20px;
+    margin: 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.getACar-header{
+        background-color: #23B14D;
+        color: white;
+        padding: 20px;
+        margin-right: : 20px;
+        border: none;
+        width: auto;
+}
+.container div h2{
+        background-color: yellow;
+        color: black;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: black 2px;
+        width: auto;
+        float: left;
+
+}
+
+#logout{
+        background-color: red;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: black 2px;
+        cursor: pointer;
+        width: auto;
+        float: right;
+        border-radius: 5px;
+
+}
+
+#getAcar{
+        margin: 5% auto;
+        width: 75%;
+        height: 10em;
+        border-radius: 5px;
+        box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),
+}
+
+#profile{
+        margin: 5% auto;
+        width: 75%;
+        border-radius: 5px;
+        box-shadow:5px 10px rgba(0,0,0,0.2),
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto;
+  padding: 10px;
+  margin: 0;
+}
+
+.grid-item-1 {
+  padding: 0;
+  font-size: 30px;
+  width: auto;
+  text-align: center;
+  columns: 1;
+  float: left;
+}
+.grid-item-2 {
+  padding: 0;
+  font-size: 30px;
+  width: auto;
+  margin: 0;
+  text-align: center;
+  columns: 1;
+}
+.grid-item-3 {
+  padding: 0;
+  font-size: 30px;
+  width: auto;
+  margin-top: 0;
+  text-align: center;
+  columns: 1;
+}
+
+#nextpage {
+   background-color: #23B14D;
+   color: white;
+   padding: 14px 20px;
+   border: none;
+   cursor: pointer;
+   width: auto%;
+   margin-top: 15px;
+   height: 7em;
+   display: block;
+   text-align: center;
+   text-decoration: none;
+}

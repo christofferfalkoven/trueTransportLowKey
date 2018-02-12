@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+        <head>
+                <meta charset="utf-8">
+                <title></title>
+        </head>
+        <body>
+                <section id="booking">
+                       <h3>Book your trip:</h3>
+                       <p>
+                               <label id="address" for="fromAddress" >From:</label>
+                               <input id="fromAddress" type="text" name="fn" maxlength='50' required="required" placeholder="e.g Flogstavägen 49, Uppsala">
+                       </p>
+                       <p>
+                               <label id="leaveAddress"for="toAddress">To:</label>
+                               <input id="toAddress" type="text" name="ln" maxlength='50' required="required" placeholder="e.g Arlanda Airport, Arlanda ">
+                       </p>
+                       <form >
+                               <label id="date" for="leaveDate"> Date: </label>
+                               <input id="leaveDate" type="date" required="required" </br>
+                               <label> Time: </label>
+                       </form>
+                       <form >
+                               <label id="time" for="leaveTime"> Time: </label>
+                               <input id="leaveTime" type="time" required="required" </br>
+                               <label> Time: </label>
+                       </form>
+                       <div class="submit-form">
+                               <button id="submitButton" type="button" > Submit </button>
+                       </div>
+
+
+                       <script type="text/javascript">
+                               function getAddresses(){
+                                       var destArray = new Array();
+                                        destArray["fromAddress"] = document.getElementById('fromAddress').value;
+                                        destArray["toAddress"] = document.getElementById('toAddress').value;
+                                        destArray["leaveDate"] = document.getElementById('leaveDate').value;
+                                        destArray["leaveTime"]  = document.getElementById('leaveTime').value;
+                                        document.write("You are traveling from: "+destArray["fromAddress"] + "</br>");
+                                        document.write("to:" + destArray["toAddress"] + "</br>");
+                                        document.write("You want to be picked up: "+destArray["leaveDate"]+ "</br>");
+                                        document.write("At: "+destArray["leaveTime"]);
+                               }
+                               var submitButton = document.getElementById('submitButton');
+                                submitButton.addEventListener('click', getAddresses, false);
+                       </script>
+
+       </section>
+</body>
+</html>
